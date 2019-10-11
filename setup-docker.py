@@ -37,8 +37,7 @@ DOCKER_DAEMON_FILE = "/etc/docker/daemon.json"
 
 DOCKER_OPTS = {
     "hosts": [
-        "tcp://0.0.0.0:4243",
-        "unix:///var/run/docker.sock"
+        "tcp://0.0.0.0:4243"
     ],
     "storage-driver": "overlay",
     "userns-remap": "default"
